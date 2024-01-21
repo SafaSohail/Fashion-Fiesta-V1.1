@@ -1,0 +1,38 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+ul.rank {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+}
+
+ul.rank > li {
+    position: relative;
+    margin: 0;
+    transition: background-color 350ms;
+}
+
+/*ul.rank > li + li {
+    margin-top: 10px;
+}*/
+
+.fa-star
+{
+  color: #ffbf1f;
+}
+
+.ratingcolor
+{
+  color: #ffbf1f;
+}
+
+ul.rank > li:hover,
+ul.rank > li:hover ~ li {
+    color: #ffbf1f;
+}
